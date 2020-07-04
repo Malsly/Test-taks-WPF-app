@@ -1,0 +1,55 @@
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\BL Implementation.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\BL Implementation.pdb
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\BL Abstract.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\DAL Abstract.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\DAL Implementation.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Entities.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Models.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Collections.Immutable.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.Options.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Memory.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Numerics.Vectors.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Buffers.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\BL Abstract.pdb
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\DAL Abstract.pdb
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\DAL Implementation.pdb
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\DAL Implementation.dll.config
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Entities.pdb
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Models.pdb
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Collections.Immutable.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.Extensions.Options.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Memory.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Numerics.Vectors.xml
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\System.Buffers.xml
+D:\JOB\Test taks WPF app\BL Implementation\obj\Debug\BL Implementation.csprojAssemblyReference.cache
+D:\JOB\Test taks WPF app\BL Implementation\obj\Debug\BL Implementation.csproj.CoreCompileInputs.cache
+D:\JOB\Test taks WPF app\BL Implementation\obj\Debug\BL Implementation.csproj.CopyComplete
+D:\JOB\Test taks WPF app\BL Implementation\obj\Debug\BL Implementation.dll
+D:\JOB\Test taks WPF app\BL Implementation\obj\Debug\BL Implementation.pdb
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\JOB\Test taks WPF app\BL Implementation\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.xml

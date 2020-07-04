@@ -1,0 +1,6 @@
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\ViewModels.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\ViewModels.pdb
+D:\JOB\Test taks WPF app\ViewModels\obj\Debug\ViewModels.csprojAssemblyReference.cache
+D:\JOB\Test taks WPF app\ViewModels\obj\Debug\ViewModels.csproj.CoreCompileInputs.cache
+D:\JOB\Test taks WPF app\ViewModels\obj\Debug\ViewModels.dll
+D:\JOB\Test taks WPF app\ViewModels\obj\Debug\ViewModels.pdb

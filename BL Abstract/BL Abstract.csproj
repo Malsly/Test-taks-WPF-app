@@ -41,8 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="IEmployeeService.cs" />
+    <Compile Include="IGenericService.cs" />
+    <Compile Include="IResultWrappers\IDataResult.cs" />
+    <Compile Include="IResultWrappers\IResult.cs" />
+    <Compile Include="IResultWrappers\ResponseMessageType.cs" />
+    <Compile Include="IResultWrappers\ResponseStatusType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{113E9554-0AFB-441B-BCC7-5AA2EA007917}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

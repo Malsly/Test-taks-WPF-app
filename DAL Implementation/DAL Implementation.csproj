@@ -124,13 +124,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mappers\EmployeeMapper.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitOfWork.cs" />
     <Compile Include="WPFAppContext.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DAL Abstract\DAL Abstract.csproj">
+      <Project>{6730dc4e-f632-4601-818d-ced07a2c0bc2}</Project>
+      <Name>DAL Abstract</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{23baa33d-700c-4b1b-bc7d-ca0571b967f6}</Project>
       <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{113E9554-0AFB-441B-BCC7-5AA2EA007917}</Project>
+      <Name>Models</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

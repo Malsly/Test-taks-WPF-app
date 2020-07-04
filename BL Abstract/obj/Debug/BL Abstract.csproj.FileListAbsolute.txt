@@ -1,0 +1,9 @@
+D:\JOB\Test taks WPF app\BL Abstract\bin\Debug\BL Abstract.dll
+D:\JOB\Test taks WPF app\BL Abstract\bin\Debug\BL Abstract.pdb
+D:\JOB\Test taks WPF app\BL Abstract\bin\Debug\Models.dll
+D:\JOB\Test taks WPF app\BL Abstract\bin\Debug\Models.pdb
+D:\JOB\Test taks WPF app\BL Abstract\obj\Debug\BL Abstract.csprojAssemblyReference.cache
+D:\JOB\Test taks WPF app\BL Abstract\obj\Debug\BL Abstract.csproj.CoreCompileInputs.cache
+D:\JOB\Test taks WPF app\BL Abstract\obj\Debug\BL Abstract.csproj.CopyComplete
+D:\JOB\Test taks WPF app\BL Abstract\obj\Debug\BL Abstract.dll
+D:\JOB\Test taks WPF app\BL Abstract\obj\Debug\BL Abstract.pdb

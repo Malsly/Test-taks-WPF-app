@@ -41,8 +41,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="EmployeeService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultWrappers\DataResult.cs" />
+    <Compile Include="ResultWrappers\Result.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL Abstract\BL Abstract.csproj">
+      <Project>{DDF2C689-9BBC-4886-BC0E-D90C055F3336}</Project>
+      <Name>BL Abstract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL Abstract\DAL Abstract.csproj">
+      <Project>{6730DC4E-F632-4601-818D-CED07A2C0BC2}</Project>
+      <Name>DAL Abstract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL Implementation\DAL Implementation.csproj">
+      <Project>{F16CEC44-2F1C-491D-862E-55E450E86671}</Project>
+      <Name>DAL Implementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{23BAA33D-700C-4B1B-BC7D-CA0571B967F6}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{113E9554-0AFB-441B-BCC7-5AA2EA007917}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

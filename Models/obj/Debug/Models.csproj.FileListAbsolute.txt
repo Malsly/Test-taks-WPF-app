@@ -1,0 +1,6 @@
+D:\JOB\Test taks WPF app\Models\bin\Debug\Models.dll
+D:\JOB\Test taks WPF app\Models\bin\Debug\Models.pdb
+D:\JOB\Test taks WPF app\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\JOB\Test taks WPF app\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\JOB\Test taks WPF app\Models\obj\Debug\Models.dll
+D:\JOB\Test taks WPF app\Models\obj\Debug\Models.pdb
