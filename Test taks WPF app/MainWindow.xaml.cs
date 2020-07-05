@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ViewModels;
 
 namespace Test_taks_WPF_app
 {
@@ -24,5 +25,16 @@ namespace Test_taks_WPF_app
         {
             InitializeComponent();
         }
+
+        private void EmployeeViewControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            EmployeeViewModel employeeViewModelObject =
+               new EmployeeViewModel();
+            employeeViewModelObject.LoadEmployees();
+
+            EmployeeViewControl.DataContext = employeeViewModelObject;
+            
+        }
+
     }
 }

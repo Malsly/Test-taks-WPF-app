@@ -11,9 +11,9 @@ using System.Threading.Tasks;
 
 namespace ViewModels
 {
-    class EmployeeViewModel
+    public class EmployeeViewModel
     {
-        public List<EmployeeDTO> Employees
+        public ObservableCollection<EmployeeDTO> Employees
         {
             get;
             set;
@@ -21,7 +21,7 @@ namespace ViewModels
 
         public void LoadEmployees()
         {
-            List<EmployeeDTO> employees = new List<EmployeeDTO>();
+            ObservableCollection<EmployeeDTO> employees;
 
             IEmployeeService employeeService = new EmployeeService();
 
@@ -31,7 +31,7 @@ namespace ViewModels
             employeeService.Add(new EmployeeDTO() { Id = 4, Name = "Lera", Position = "Trainee", BirthDay = new DateTime(1998, 1, 7) });
             
             employeeService.Save();
-            employees = employeeService.GetAll().Data; 
+            employees = new ObservableCollection<EmployeeDTO>(employeeService.GetAll().Data);
 
             Employees = employees;
         }

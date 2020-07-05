@@ -33,33 +33,9 @@ D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\System.Threading.Tasks.Ext
 D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\DAL Abstract.pdb
 D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Entities.pdb
 D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Models.pdb
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\EntityFramework.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\EntityFramework.SqlServer.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Bcl.HashCode.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.EntityFrameworkCore.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Extensions.Configuration.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Extensions.Logging.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Extensions.Options.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.Extensions.Primitives.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\System.Buffers.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\System.Collections.Immutable.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\System.Memory.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\System.Numerics.Vectors.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\JOB\Test taks WPF app\DAL Implementation\obj\Debug\DAL Implementation.csprojAssemblyReference.cache
 D:\JOB\Test taks WPF app\DAL Implementation\obj\Debug\DAL Implementation.csproj.CoreCompileInputs.cache
 D:\JOB\Test taks WPF app\DAL Implementation\obj\Debug\DAL Implementation.csproj.CopyComplete
 D:\JOB\Test taks WPF app\DAL Implementation\obj\Debug\DAL Implementation.dll
 D:\JOB\Test taks WPF app\DAL Implementation\obj\Debug\DAL Implementation.pdb
+D:\JOB\Test taks WPF app\DAL Implementation\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll

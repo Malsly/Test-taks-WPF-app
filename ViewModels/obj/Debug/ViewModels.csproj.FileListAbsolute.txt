@@ -4,3 +4,40 @@ D:\JOB\Test taks WPF app\ViewModels\obj\Debug\ViewModels.csprojAssemblyReference
 D:\JOB\Test taks WPF app\ViewModels\obj\Debug\ViewModels.csproj.CoreCompileInputs.cache
 D:\JOB\Test taks WPF app\ViewModels\obj\Debug\ViewModels.dll
 D:\JOB\Test taks WPF app\ViewModels\obj\Debug\ViewModels.pdb
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\BL Abstract.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\BL Implementation.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Entities.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Models.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\DAL Abstract.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\DAL Implementation.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\System.Collections.Immutable.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Extensions.Options.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\System.Memory.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\System.Numerics.Vectors.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\System.Buffers.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\BL Abstract.pdb
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\BL Implementation.pdb
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Entities.pdb
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Models.pdb
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\DAL Abstract.pdb
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\DAL Implementation.pdb
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\DAL Implementation.dll.config
+D:\JOB\Test taks WPF app\ViewModels\obj\Debug\ViewModels.csproj.CopyComplete
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\ViewModels.dll.config
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\System.ComponentModel.Annotations.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\JOB\Test taks WPF app\ViewModels\bin\Debug\BL Implementation.dll.config

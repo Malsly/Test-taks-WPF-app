@@ -1,6 +1,6 @@
 D:\JOB\Test taks WPF app\Entities\bin\Debug\Entities.dll
 D:\JOB\Test taks WPF app\Entities\bin\Debug\Entities.pdb
-D:\JOB\Test taks WPF app\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
 D:\JOB\Test taks WPF app\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
 D:\JOB\Test taks WPF app\Entities\obj\Debug\Entities.dll
 D:\JOB\Test taks WPF app\Entities\obj\Debug\Entities.pdb
+D:\JOB\Test taks WPF app\Entities\obj\Debug\Entities.csprojAssemblyReference.cache

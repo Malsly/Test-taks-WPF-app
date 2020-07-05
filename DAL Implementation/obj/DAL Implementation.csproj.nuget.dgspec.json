@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\JOB\\Test taks WPF app\\DAL Implementation\\DAL Implementation.csproj": {}
+  },
+  "projects": {
+    "D:\\JOB\\Test taks WPF app\\DAL Abstract\\DAL Abstract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\JOB\\Test taks WPF app\\DAL Abstract\\DAL Abstract.csproj",
+        "projectName": "DAL Abstract",
+        "projectPath": "D:\\JOB\\Test taks WPF app\\DAL Abstract\\DAL Abstract.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\JOB\\Test taks WPF app\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\JOB\\Test taks WPF app\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\JOB\\Test taks WPF app\\DAL Implementation\\DAL Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\JOB\\Test taks WPF app\\DAL Implementation\\DAL Implementation.csproj",
+        "projectName": "DAL Implementation",
+        "projectPath": "D:\\JOB\\Test taks WPF app\\DAL Implementation\\DAL Implementation.csproj",
+        "packagesPath": "C:\\Users\\Макс\\.nuget\\packages\\",
+        "outputPath": "D:\\JOB\\Test taks WPF app\\DAL Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Макс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\JOB\\Test taks WPF app\\DAL Abstract\\DAL Abstract.csproj": {
+                "projectPath": "D:\\JOB\\Test taks WPF app\\DAL Abstract\\DAL Abstract.csproj"
+              },
+              "D:\\JOB\\Test taks WPF app\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\JOB\\Test taks WPF app\\Entities\\Entities.csproj"
+              },
+              "D:\\JOB\\Test taks WPF app\\Models\\Models.csproj": {
+                "projectPath": "D:\\JOB\\Test taks WPF app\\Models\\Models.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\JOB\\Test taks WPF app\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\JOB\\Test taks WPF app\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "D:\\JOB\\Test taks WPF app\\Entities\\Entities.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\JOB\\Test taks WPF app\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\JOB\\Test taks WPF app\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "D:\\JOB\\Test taks WPF app\\Models\\Models.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
