@@ -169,26 +169,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BL Abstract\BL Abstract.csproj">
-      <Project>{DDF2C689-9BBC-4886-BC0E-D90C055F3336}</Project>
-      <Name>BL Abstract</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BL Implementation\BL Implementation.csproj">
-      <Project>{2E024F6F-E7EB-4D83-B181-F9BA11D5C875}</Project>
-      <Name>BL Implementation</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DAL Implementation\DAL Implementation.csproj">
-      <Project>{F16CEC44-2F1C-491D-862E-55E450E86671}</Project>
-      <Name>DAL Implementation</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Entities\Entities.csproj">
-      <Project>{23BAA33D-700C-4B1B-BC7D-CA0571B967F6}</Project>
-      <Name>Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Models\Models.csproj">
-      <Project>{113E9554-0AFB-441B-BCC7-5AA2EA007917}</Project>
-      <Name>Models</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ViewModels\ViewModels.csproj">
       <Project>{b195b76b-c98b-4bd7-a5cf-2cf11c664211}</Project>
       <Name>ViewModels</Name>

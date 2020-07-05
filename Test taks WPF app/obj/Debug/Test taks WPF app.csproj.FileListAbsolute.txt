@@ -40,8 +40,6 @@ D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\DAL Implementation.dll.conf
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
-D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\System.Memory.xml
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\System.Numerics.Vectors.xml

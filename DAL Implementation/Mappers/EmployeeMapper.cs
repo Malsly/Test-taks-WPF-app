@@ -26,12 +26,12 @@ namespace DAl.Impl.Mappers
                     Id = dto.Id,
                     Name = dto.Name,
                     Position = dto.Position,
-                    BirthDay = dto.BirthDay,
+                    BirthDay = new DateTime(DateTime.Now.Year - dto.Age, 1,1) 
                 };
             entity.Id = dto.Id;
             entity.Name = dto.Name;
             entity.Position = dto.Position;
-            entity.BirthDay = dto.BirthDay;
+            entity.BirthDay = new DateTime(DateTime.Now.Year - dto.Age, entity.BirthDay.Month, entity.BirthDay.Day);
             return entity;
         }
 
@@ -42,7 +42,7 @@ namespace DAl.Impl.Mappers
                 Id = entity.Id,
                 Name = entity.Name,
                 Position = entity.Position,
-                BirthDay = entity.BirthDay,
+                Age = (int)(DateTime.Now - entity.BirthDay).TotalDays/365
             };
         }
     }

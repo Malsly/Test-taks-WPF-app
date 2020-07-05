@@ -10,7 +10,6 @@ D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Entities.dll
 D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Models.dll
 D:\JOB\Test taks WPF app\ViewModels\bin\Debug\DAL Abstract.dll
 D:\JOB\Test taks WPF app\ViewModels\bin\Debug\DAL Implementation.dll
-D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.EntityFrameworkCore.dll
 D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.dll
 D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\JOB\Test taks WPF app\ViewModels\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
