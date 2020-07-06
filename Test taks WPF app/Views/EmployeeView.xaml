@@ -7,13 +7,41 @@
              mc:Ignorable="d" 
              d:DesignHeight="442" d:DesignWidth="822.4">
     <Grid>
-        <DataGrid ItemsSource="{Binding Employees}" SelectedItem="{Binding SelectedEmployee}" Name="employeeTable" AutoGenerateColumns="False">
+        
+        <StackPanel Orientation="Vertical" Grid.IsSharedSizeScope="True">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="Label"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Name</Label>
+                <TextBox Grid.Column="1" Text="{Binding SelectedEmployee.Name}"></TextBox>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="Label"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Position</Label>
+                <TextBox Grid.Column="1" Text="{Binding SelectedEmployee.Position}"></TextBox>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="Label"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Age</Label>
+                <TextBox Grid.Column="1" Text="{Binding SelectedEmployee.Age}"></TextBox>
+            </Grid>
+        </StackPanel>
+
+        <DataGrid ItemsSource="{Binding Employees}" SelectedItem="{Binding SelectedEmployee}" Name="employeeTable" AutoGenerateColumns="False" Margin="0,77,0.4,-0.4">
             <DataGrid.Columns>
-                <DataGridTemplateColumn Header="Id">
+                <DataGridTemplateColumn Header="Id" >
                     <DataGridTemplateColumn.CellTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding Id}" />
-                    </DataTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Id}" />
+                        </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
                 <DataGridTemplateColumn Header="Name">
@@ -33,7 +61,7 @@
                 <DataGridTemplateColumn Header="Age">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <TextBlock Text="{Binding Age}" />
+                            <TextBlock Text="{Binding Age}"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
@@ -53,6 +81,5 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
-            
     </Grid>
 </UserControl>

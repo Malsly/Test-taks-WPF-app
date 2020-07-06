@@ -11,6 +11,6 @@
             <RowDefinition Height="83*"/>
             <RowDefinition Height="337*"/>
         </Grid.RowDefinitions>
-        <views:EmployeeView x:Name = "EmployeeViewControl" Loaded = "EmployeeViewControl_Loaded" Margin="500,15,14.6,15" Grid.RowSpan="2"/>
+        <views:EmployeeView x:Name = "EmployeeViewControl" Loaded = "EmployeeViewControl_Loaded" Margin="436,15,14.6,15" Grid.RowSpan="2"/>
     </Grid>
 </Window>
