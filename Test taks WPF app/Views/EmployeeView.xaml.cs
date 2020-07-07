@@ -24,5 +24,7 @@ namespace Test_taks_WPF_app.Views
         {
             InitializeComponent();
         }
+
+        
     }
 }

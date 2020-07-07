@@ -94,3 +94,7 @@ D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\ro\Xceed.Wpf.AvalonDock.res
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\System.Windows.Interactivity.dll
+D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\System.Windows.Interactivity.xml
