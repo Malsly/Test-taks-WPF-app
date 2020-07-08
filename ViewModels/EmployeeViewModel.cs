@@ -16,7 +16,7 @@ namespace ViewModels
 {
     public class EmployeeViewModel : INotifyPropertyChanged
     {
-        private EmployeeDTO  selectedEmployee;
+        private EmployeeDTO selectedEmployee;
         private ObservableCollection<EmployeeDTO> employees;
         private readonly IEmployeeService employeeService = new EmployeeService();
  
@@ -32,11 +32,42 @@ namespace ViewModels
         
         public EmployeeDTO SelectedEmployee
         {
-            get { return selectedEmployee; }
+            get 
+            { return selectedEmployee; }
             set
             {
                 selectedEmployee = value;
                 OnPropertyChanged(nameof(SelectedEmployee));
+            }
+        }
+
+
+        private RelayCommand addEmployee;
+        public RelayCommand AddEmployee
+        {
+            get
+            {
+                return addEmployee ??
+                  (addEmployee = new RelayCommand(obj =>
+                  {
+                      EmployeeDTO newEmployee = new EmployeeDTO()
+                      {
+                          Id = SelectedEmployee.Id,
+                          Name = SelectedEmployee.Name,
+                          Position = SelectedEmployee.Position,
+                          BirthDay = SelectedEmployee.BirthDay
+                      };
+
+                      if (employeeService.GetAll().Data.Any(item => item.Id == newEmployee.Id))
+                          employeeService.Update(newEmployee);
+                      else
+                      {
+                          employeeService.Add(newEmployee);
+                      }
+
+                      employeeService.Save();
+                      RefreshEmployees();
+                  }));
             }
         }
 
@@ -48,7 +79,6 @@ namespace ViewModels
                 return saveChangedEmployee ??
                   (saveChangedEmployee = new RelayCommand(obj =>
                   {
-                      employeeService.Update(SelectedEmployee);
                       employeeService.Save();
                       RefreshEmployees();
                   }));
