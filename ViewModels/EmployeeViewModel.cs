@@ -10,17 +10,33 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Data;
 using ViewModels.Infrastructure;
 
 namespace ViewModels
 {
     public class EmployeeViewModel : INotifyPropertyChanged
     {
-        private EmployeeDTO selectedEmployee;
-        private ObservableCollection<EmployeeDTO> employees;
+        private EmployeeDTO selectedEmployee = new EmployeeDTO();
+        private ICollectionView employees;
         private readonly IEmployeeService employeeService = new EmployeeService();
- 
-        public ObservableCollection<EmployeeDTO> Employees
+
+        public EmployeeViewModel() 
+        {
+            IList<EmployeeDTO> employeesFromService;
+
+            employeeService.Add(new EmployeeDTO() { Id = 1, Name = "Maks", Position = "Senior", BirthDay = new DateTime(2000, 9, 12) });
+            employeeService.Add(new EmployeeDTO() { Id = 2, Name = "Igor", Position = "Middle", BirthDay = new DateTime(1999, 7, 8) });
+            employeeService.Add(new EmployeeDTO() { Id = 3, Name = "Alex", Position = "Junior", BirthDay = new DateTime(1997, 6, 3) });
+            employeeService.Add(new EmployeeDTO() { Id = 4, Name = "Lera", Position = "Trainee", BirthDay = new DateTime(1984, 11, 15) });
+
+            employeeService.Save();
+
+            employeesFromService = employeeService.GetAll().Data;
+            employees = CollectionViewSource.GetDefaultView(employeesFromService);
+        }
+
+        public ICollectionView Employees
         {
             get { return employees; }
             set
@@ -50,13 +66,21 @@ namespace ViewModels
                 return addEmployee ??
                   (addEmployee = new RelayCommand(obj =>
                   {
-                      EmployeeDTO newEmployee = new EmployeeDTO()
+                      EmployeeDTO newEmployee = new EmployeeDTO();
+                      try
                       {
-                          Id = SelectedEmployee.Id,
-                          Name = SelectedEmployee.Name,
-                          Position = SelectedEmployee.Position,
-                          BirthDay = SelectedEmployee.BirthDay
-                      };
+                          if (selectedEmployee != null)
+                          {
+                              newEmployee = new EmployeeDTO()
+                              {
+                                  Id = SelectedEmployee.Id,
+                                  Name = SelectedEmployee.Name,
+                                  Position = SelectedEmployee.Position,
+                                  BirthDay = SelectedEmployee.BirthDay
+                              };
+                          }
+                      }
+                      catch { }   
 
                       if (employeeService.GetAll().Data.Any(item => item.Id == newEmployee.Id))
                           employeeService.Update(newEmployee);
@@ -79,6 +103,7 @@ namespace ViewModels
                 return saveChangedEmployee ??
                   (saveChangedEmployee = new RelayCommand(obj =>
                   {
+                      selectedEmployee = new EmployeeDTO();
                       employeeService.Save();
                       RefreshEmployees();
                   }));
@@ -96,6 +121,7 @@ namespace ViewModels
                       employeeService.Delete(SelectedEmployee.Id);
                       employeeService.Save();
                       RefreshEmployees();
+                      selectedEmployee = new EmployeeDTO();
                   }));
             }
         }
@@ -115,7 +141,7 @@ namespace ViewModels
         }
         public void RefreshEmployees()
         {
-            employees = new ObservableCollection<EmployeeDTO>(employeeService.GetAll().Data);
+            employees = CollectionViewSource.GetDefaultView(employeeService.GetAll().Data);
             OnPropertyChanged(nameof(Employees));
         }
         public void RefreshSelectedEmployee ()
@@ -129,23 +155,6 @@ namespace ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
         }
-
-        public void LoadEmployees()
-        {
-            ObservableCollection<EmployeeDTO> employees;
-
-            employeeService.Add(new EmployeeDTO() { Id = 1, Name = "Maks", Position = "Senior", BirthDay = new DateTime(2000, 9, 12) });
-            employeeService.Add(new EmployeeDTO() { Id = 2, Name = "Igor", Position = "Middle", BirthDay = new DateTime(1999, 7, 8) });
-            employeeService.Add(new EmployeeDTO() { Id = 3, Name = "Alex", Position = "Junior", BirthDay = new DateTime(1997, 6, 3) });
-            employeeService.Add(new EmployeeDTO() { Id = 4, Name = "Lera", Position = "Trainee", BirthDay = new DateTime(1984, 11, 15) });
-
-            employeeService.Save();
-
-            employees = new ObservableCollection<EmployeeDTO>(employeeService.GetAll().Data);
-
-            Employees = employees;
-        }
-
 
     }
 }

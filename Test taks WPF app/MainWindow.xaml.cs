@@ -30,7 +30,6 @@ namespace Test_taks_WPF_app
         {
             EmployeeViewModel employeeViewModelObject =
                new EmployeeViewModel();
-            employeeViewModelObject.LoadEmployees();
 
             EmployeeViewControl.DataContext = employeeViewModelObject;
             

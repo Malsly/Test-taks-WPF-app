@@ -15,14 +15,6 @@
                     <ColumnDefinition Width="Auto" SharedSizeGroup="Label"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Label Grid.Column="0">Id</Label>
-                <TextBox Grid.Column="1" Text="{Binding SelectedEmployee.Id}"></TextBox>
-            </Grid>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" SharedSizeGroup="Label"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
                 <Label Grid.Column="0">Name</Label>
                 <TextBox Grid.Column="1" Text="{Binding SelectedEmployee.Name}"></TextBox>
             </Grid>
@@ -57,30 +49,23 @@
             </Grid>
         </StackPanel>
 
-        <DataGrid ItemsSource="{Binding Employees}" SelectedItem="{Binding SelectedEmployee}" Name="employeeTable" AutoGenerateColumns="False" Margin="0,129,0.4,-0.4" >
+        <DataGrid ItemsSource="{Binding Employees}" SelectedItem="{Binding SelectedEmployee}" Margin="0,100,0.4,-0.4" AutoGenerateColumns="False" CanUserAddRows="False">
             <DataGrid.Columns>
-                <DataGridTemplateColumn Header="Id">
-                    <DataGridTemplateColumn.CellTemplate >
-                        <DataTemplate>
-                            <TextBlock Text="{Binding Id}" />
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
-                <DataGridTemplateColumn Header="Name">
-                    <DataGridTemplateColumn.CellTemplate >
+                <DataGridTemplateColumn Header="Name" SortMemberPath="Name">
+                    <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding Name}" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn Header="Position">
+                <DataGridTemplateColumn Header="Position" SortMemberPath="Position">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding Position}" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn Header="Age">
+                <DataGridTemplateColumn Header="Age" SortMemberPath="Age">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding Age}"/>

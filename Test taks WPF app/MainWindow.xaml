@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test_taks_WPF_app" xmlns:views="clr-namespace:Test_taks_WPF_app.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="358.824">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="83*"/>
             <RowDefinition Height="337*"/>
         </Grid.RowDefinitions>
-        <views:EmployeeView x:Name = "EmployeeViewControl" Loaded = "EmployeeViewControl_Loaded" Margin="436,15,14.6,15" Grid.RowSpan="2"/>
+        <views:EmployeeView x:Name = "EmployeeViewControl" Loaded = "EmployeeViewControl_Loaded" Margin="15" Grid.RowSpan="2"/>
     </Grid>
 </Window>
