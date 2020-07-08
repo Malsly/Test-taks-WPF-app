@@ -8,7 +8,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="442" d:DesignWidth="822.4">
     <Grid>
-        
+        <!--Form for adding and editing employee-->
         <StackPanel Orientation="Vertical" Grid.IsSharedSizeScope="True">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -49,6 +49,7 @@
             </Grid>
         </StackPanel>
 
+        <!--Data table with employee-->
         <DataGrid ItemsSource="{Binding Employees}" SelectedItem="{Binding SelectedEmployee}" Margin="0,100,0.4,-0.4" AutoGenerateColumns="False" CanUserAddRows="False">
             <DataGrid.Columns>
                 <DataGridTemplateColumn Header="Name" SortMemberPath="Name">
@@ -95,7 +96,7 @@
                 <DataGridTemplateColumn Header="Is Working">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <CheckBox IsChecked="False" Height="20" HorizontalAlignment="Center"/>
+                            <CheckBox IsChecked="{Binding IsWorking, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Height="20" HorizontalAlignment="Center"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>

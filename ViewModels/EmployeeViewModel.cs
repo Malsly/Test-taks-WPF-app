@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -25,10 +26,13 @@ namespace ViewModels
         {
             IList<EmployeeDTO> employeesFromService;
 
-            employeeService.Add(new EmployeeDTO() { Id = 1, Name = "Maks", Position = "Senior", BirthDay = new DateTime(2000, 9, 12) });
-            employeeService.Add(new EmployeeDTO() { Id = 2, Name = "Igor", Position = "Middle", BirthDay = new DateTime(1999, 7, 8) });
-            employeeService.Add(new EmployeeDTO() { Id = 3, Name = "Alex", Position = "Junior", BirthDay = new DateTime(1997, 6, 3) });
-            employeeService.Add(new EmployeeDTO() { Id = 4, Name = "Lera", Position = "Trainee", BirthDay = new DateTime(1984, 11, 15) });
+            employeeService.Add(new EmployeeDTO() { Id = 1, Name = "James", Position = "Senior", BirthDay = new DateTime(2000, 9, 12), IsWorking = false });
+            employeeService.Add(new EmployeeDTO() { Id = 2, Name = "Harper", Position = "Middle", BirthDay = new DateTime(1999, 7, 8), IsWorking = true });
+            employeeService.Add(new EmployeeDTO() { Id = 3, Name = "Mason", Position = "Junior", BirthDay = new DateTime(1997, 6, 3), IsWorking = true });
+            employeeService.Add(new EmployeeDTO() { Id = 4, Name = "Evelyn", Position = "Senior", BirthDay = new DateTime(1988, 1, 1), IsWorking = false });
+            employeeService.Add(new EmployeeDTO() { Id = 5, Name = "Ella", Position = "Middle", BirthDay = new DateTime(1981, 8, 14), IsWorking = false });
+            employeeService.Add(new EmployeeDTO() { Id = 6, Name = "Avery", Position = "Junior", BirthDay = new DateTime(1984, 3, 21), IsWorking = true });
+
 
             employeeService.Save();
 
@@ -48,8 +52,7 @@ namespace ViewModels
         
         public EmployeeDTO SelectedEmployee
         {
-            get 
-            { return selectedEmployee; }
+            get { return selectedEmployee; }
             set
             {
                 selectedEmployee = value;
@@ -57,7 +60,7 @@ namespace ViewModels
             }
         }
 
-
+        //Commands
         private RelayCommand addEmployee;
         public RelayCommand AddEmployee
         {
@@ -67,27 +70,21 @@ namespace ViewModels
                   (addEmployee = new RelayCommand(obj =>
                   {
                       EmployeeDTO newEmployee = new EmployeeDTO();
-                      try
-                      {
-                          if (selectedEmployee != null)
-                          {
-                              newEmployee = new EmployeeDTO()
-                              {
-                                  Id = SelectedEmployee.Id,
-                                  Name = SelectedEmployee.Name,
-                                  Position = SelectedEmployee.Position,
-                                  BirthDay = SelectedEmployee.BirthDay
-                              };
-                          }
-                      }
-                      catch { }   
-
+                      
+                      if (selectedEmployee != null)
+                        newEmployee = new EmployeeDTO()
+                        {
+                            Id = SelectedEmployee.Id,
+                            Name = SelectedEmployee.Name,
+                            Position = SelectedEmployee.Position,
+                            BirthDay = SelectedEmployee.BirthDay,
+                            IsWorking = SelectedEmployee.IsWorking
+                        };
+                      
                       if (employeeService.GetAll().Data.Any(item => item.Id == newEmployee.Id))
                           employeeService.Update(newEmployee);
                       else
-                      {
                           employeeService.Add(newEmployee);
-                      }
 
                       employeeService.Save();
                       RefreshEmployees();
@@ -103,9 +100,10 @@ namespace ViewModels
                 return saveChangedEmployee ??
                   (saveChangedEmployee = new RelayCommand(obj =>
                   {
-                      selectedEmployee = new EmployeeDTO();
+                      employeeService.Update(selectedEmployee);
                       employeeService.Save();
                       RefreshEmployees();
+                      selectedEmployee = new EmployeeDTO();
                   }));
             }
         }
@@ -139,6 +137,7 @@ namespace ViewModels
                   }));
             }
         }
+        //Update props from DB
         public void RefreshEmployees()
         {
             employees = CollectionViewSource.GetDefaultView(employeeService.GetAll().Data);

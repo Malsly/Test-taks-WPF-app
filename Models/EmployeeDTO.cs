@@ -13,5 +13,6 @@ namespace Models
         public String Position { get; set; }
         public DateTime BirthDay { get; set; }
         public int Age { get; set; }
+        public bool IsWorking { get; set; }
     }
 }

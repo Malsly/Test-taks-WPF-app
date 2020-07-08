@@ -12,5 +12,6 @@ namespace Entities
         public String Name { get; set; }
         public String Position { get; set; }
         public DateTime BirthDay { get; set; }
+        public bool IsWorking { get; set; }
     }
 }
