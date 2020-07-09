@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f+GVMU7KFU7snDF5QF7IyhL42r6GNtU6R6+Up89MRuSU3/Cr1kinIaQL4hZdnXRssLUpnIvPS/Se7MYVkzcISQ==",
+  "dgSpecHash": "mHPMPzn55RJymfWPcYxCc91rmLPbf6WNFAVAh2wYiTxaY2ftpynNsdy0HJR/fip1/pk1a2tEaDCMBiUkU8A6mw==",
   "success": true,
-  "projectFilePath": "D:\\JOB\\Test taks WPF app\\DAL Implementation\\DAL Implementation.csproj",
+  "projectFilePath": "D:\\JOB\\Clone from github\\Test-taks-WPF-app\\DAL Implementation\\DAL Implementation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Макс\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Макс\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

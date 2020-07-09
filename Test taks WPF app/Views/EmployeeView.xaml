@@ -31,7 +31,7 @@
                     <ColumnDefinition Width="Auto" SharedSizeGroup="Label"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Label Grid.Column="0">Age</Label>
+                <Label Grid.Column="0">BirthDay</Label>
                 <TextBox Grid.Column="1" Text="{Binding SelectedEmployee.BirthDay, StringFormat=\{0:dd.MM.yyyy\}, UpdateSourceTrigger=PropertyChanged}">
                     <TextBox.InputBindings>
                         <KeyBinding Command="{Binding BirthDayChanged}" Key="Enter" />

@@ -98,3 +98,103 @@ D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\Microsoft.Expression.Intera
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\System.Windows.Interactivity.dll
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\Microsoft.Expression.Interactions.xml
 D:\JOB\Test taks WPF app\Test taks WPF app\bin\Debug\System.Windows.Interactivity.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Test taks WPF app.exe.config
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Test taks WPF app.exe
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Test taks WPF app.pdb
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Options.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Newtonsoft.Json.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Buffers.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Collections.Immutable.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.ComponentModel.Annotations.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Memory.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Numerics.Vectors.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Windows.Interactivity.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\ViewModels.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Models.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\BL Abstract.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\BL Implementation.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\DAL Abstract.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Entities.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\DAL Implementation.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\ViewModels.pdb
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\ViewModels.dll.config
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Options.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Newtonsoft.Json.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Buffers.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Collections.Immutable.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Memory.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Numerics.Vectors.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\System.Windows.Interactivity.xml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Models.pdb
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\BL Abstract.pdb
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\BL Implementation.pdb
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\BL Implementation.dll.config
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\DAL Abstract.pdb
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\Entities.pdb
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\DAL Implementation.pdb
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\DAL Implementation.dll.config
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Test taks WPF app.csprojAssemblyReference.cache
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\MainWindow.g.cs
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Views\EmployeeView.g.cs
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\App.g.cs
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Test taks WPF app_MarkupCompile.cache
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Test taks WPF app_MarkupCompile.lref
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\MainWindow.baml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Views\EmployeeView.baml
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Test taks WPF app.g.resources
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Test_taks_WPF_app.Properties.Resources.resources
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Test taks WPF app.csproj.GenerateResource.cache
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Test taks WPF app.csproj.CoreCompileInputs.cache
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Test taks WPF app.csproj.CopyComplete
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Test taks WPF app.exe
+D:\JOB\Clone from github\Test-taks-WPF-app\Test taks WPF app\obj\Debug\Test taks WPF app.pdb

@@ -7,3 +7,12 @@ D:\JOB\Test taks WPF app\DAL Abstract\obj\Debug\DAL Abstract.csproj.CoreCompileI
 D:\JOB\Test taks WPF app\DAL Abstract\obj\Debug\DAL Abstract.csproj.CopyComplete
 D:\JOB\Test taks WPF app\DAL Abstract\obj\Debug\DAL Abstract.dll
 D:\JOB\Test taks WPF app\DAL Abstract\obj\Debug\DAL Abstract.pdb
+D:\JOB\Clone from github\Test-taks-WPF-app\DAL Abstract\bin\Debug\DAL Abstract.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\DAL Abstract\bin\Debug\DAL Abstract.pdb
+D:\JOB\Clone from github\Test-taks-WPF-app\DAL Abstract\bin\Debug\Entities.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\DAL Abstract\bin\Debug\Entities.pdb
+D:\JOB\Clone from github\Test-taks-WPF-app\DAL Abstract\obj\Debug\DAL Abstract.csprojAssemblyReference.cache
+D:\JOB\Clone from github\Test-taks-WPF-app\DAL Abstract\obj\Debug\DAL Abstract.csproj.CoreCompileInputs.cache
+D:\JOB\Clone from github\Test-taks-WPF-app\DAL Abstract\obj\Debug\DAL Abstract.csproj.CopyComplete
+D:\JOB\Clone from github\Test-taks-WPF-app\DAL Abstract\obj\Debug\DAL Abstract.dll
+D:\JOB\Clone from github\Test-taks-WPF-app\DAL Abstract\obj\Debug\DAL Abstract.pdb
